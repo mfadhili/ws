@@ -31,14 +31,18 @@ export function BroadcastForm({selectedGroups, broadcastSchedule, setShowGroupMo
                 </div>
                 <div className="grid gap-2">
                     <Label>Customer Groups</Label>
-                    <Button variant="outline" onClick={() => setShowGroupModal(true)}>
-                        Select Groups
-                    </Button>
+
                     <div className="flex flex-wrap gap-2">
                         {selectedGroups.includes(1) && <Badge>Group 1</Badge>}
                         {selectedGroups.includes(2) && <Badge>Group 2</Badge>}
                         {selectedGroups.includes(3) && <Badge>Group 3</Badge>}
                     </div>
+                    <div className="flex">
+                        <Button variant="outline" type={"button"} onClick={() => setShowGroupModal(true)}>
+                            Select Groups
+                        </Button>
+                    </div>
+
                 </div>
                 <div className="grid gap-2">
                     <Label htmlFor="schedule">Schedule</Label>
