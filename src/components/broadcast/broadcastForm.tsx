@@ -5,10 +5,10 @@ import {Input} from "@/components/ui/input";
 import {Textarea} from "@/components/ui/textarea";
 import {Button} from "@/components/ui/button";
 import {Badge} from "@/components/ui/badge";
-import {useState} from "react";
+import "react-datepicker/dist/react-datepicker.css"
+import {DatePicker} from "@/components/broadcast/datePicker";
 
 export function BroadcastForm({selectedGroups, broadcastSchedule, setShowGroupModal, setBroadcastSchedule, setShowBroadcastModal}) {
-
 
 
     const handleSaveTemplate = () => {}
@@ -46,12 +46,9 @@ export function BroadcastForm({selectedGroups, broadcastSchedule, setShowGroupMo
                 </div>
                 <div className="grid gap-2">
                     <Label htmlFor="schedule">Schedule</Label>
-                    <Input
-                        id="schedule"
-                        type="datetime-local"
-                        value={broadcastSchedule}
-                        onChange={(e) => setBroadcastSchedule(e.target.value)}
-                    />
+                    <div className="flex">
+                        <DatePicker selected={broadcastSchedule} onChange={(date: Date) => setBroadcastSchedule(date)}/>
+                    </div>
                 </div>
                 <div className="flex justify-between">
                     <Button type="button" onClick={handleSaveTemplate}>
