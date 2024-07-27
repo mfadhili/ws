@@ -11,7 +11,7 @@ export function SideNav() {
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <Link
-                            href="#"
+                            href="contacts"
                             className="flex w-full items-center justify-start gap-3 rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8"
                             prefetch={false}
                         >
@@ -24,7 +24,7 @@ export function SideNav() {
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <Link
-                            href="#"
+                            href="deals"
                             className="flex w-full items-center justify-start gap-3 rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8"
                             prefetch={false}
                         >
@@ -37,7 +37,7 @@ export function SideNav() {
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <Link
-                            href="#"
+                            href="settings"
                             className="flex w-full items-center justify-start gap-3 rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8"
                             prefetch={false}
                         >
@@ -50,7 +50,7 @@ export function SideNav() {
                 <Tooltip>
                     <TooltipTrigger asChild>
                         <Link
-                            href="#"
+                            href="broadcast"
                             className="flex w-full items-center justify-start gap-3 rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8"
                             prefetch={false}
                         >

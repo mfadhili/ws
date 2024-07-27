@@ -36,3 +36,54 @@ export const accounts = [
         ),
     },
 ]
+export const contactSamples = [
+    {
+        id: 1,
+        name: "John Doe",
+        email: "john@example.com",
+        phone: "555-1234",
+        company: "Acme Inc.",
+    },
+    {
+        id: 2,
+        name: "Jane Smith",
+        email: "jane@example.com",
+        phone: "555-5678",
+        company: "Globex Corp.",
+    },
+    {
+        id: 3,
+        name: "Bob Johnson",
+        email: "bob@example.com",
+        phone: "555-9012",
+        company: "Stark Industries",
+    },
+    {
+        id: 3,
+        name: "Bob Johnson",
+        email: "bob@example.com",
+        phone: "555-9012",
+        company: "Stark Industries",
+    },
+    {
+        id: 3,
+        name: "Bob Johnson",
+        email: "bob@example.com",
+        phone: "555-9012",
+        company: "Stark Industries",
+    },
+    {
+        id: 3,
+        name: "Bob Johnson",
+        email: "bob@example.com",
+        phone: "555-9012",
+        company: "Stark Industries",
+    },
+    {
+        id: 3,
+        name: "Bob Johnson",
+        email: "bob@example.com",
+        phone: "555-9012",
+        company: "Stark Industries",
+    },
+]

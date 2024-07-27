@@ -16,20 +16,20 @@ export function ResponsiveMenu() {
             <SheetContent side="left" className="sm:max-w-xs">
                 <nav className="grid gap-6 text-lg font-medium">
                     <Link
-                        href="#"
+                        href="/"
                         className="group flex h-10 w-10 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:text-base"
                         prefetch={false}
                     >
                         <UsersIcon className="h-5 w-5 transition-all group-hover:scale-110"/>
                         <span className="sr-only">Acme CRM</span>
                     </Link>
-                    <Link href="#" className="flex items-center gap-4 px-2.5 text-foreground"
+                    <Link href="contacts" className="flex items-center gap-4 px-2.5 text-foreground"
                           prefetch={false}>
                         <ContactIcon className="h-5 w-5"/>
                         Contacts
                     </Link>
                     <Link
-                        href="#"
+                        href="deals"
                         className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                         prefetch={false}
                     >
@@ -37,7 +37,7 @@ export function ResponsiveMenu() {
                         Deals
                     </Link>
                     <Link
-                        href="#"
+                        href="settings"
                         className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                         prefetch={false}
                     >
@@ -45,7 +45,7 @@ export function ResponsiveMenu() {
                         Settings
                     </Link>
                     <Link
-                        href="#"
+                        href="broadcast"
                         className="flex items-center gap-4 px-2.5 bg-accent text-accent-foreground hover:text-foreground"
                         prefetch={false}
                     >
